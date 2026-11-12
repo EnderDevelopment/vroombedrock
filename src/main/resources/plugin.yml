@@ -1,0 +1,17 @@
+name: EnderCars
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+description: Drivable sports cars with fuel, paint, physics, sound, and passenger support.
+commands:
+  car:
+    description: Spawn, customize, refuel, and inspect sports cars.
+    usage: /car <spawn|paint|refuel|fuel|remove> [model|color]
+    aliases: [cars]
+permissions:
+  endercars.use:
+    description: Allows driving and managing cars.
+    default: true
+  endercars.admin:
+    description: Allows spawning cars for other players.
+    default: op
